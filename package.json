@@ -1,0 +1,24 @@
+{
+  "name": "federalist-build-js",
+  "version": "0.0.0",
+  "description": "A test to build production JavaScript on Federalist",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnbot/federalist-build-js.git"
+  },
+  "author": "Shawn Allen <shawn.allen@gsa.gov>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/shawnbot/federalist-build-js/issues"
+  },
+  "homepage": "https://github.com/shawnbot/federalist-build-js#readme",
+  "dependencies": {
+    "d3-selection": "^0.6.3",
+    "webpack": "^1.12.12"
+  }
+}
