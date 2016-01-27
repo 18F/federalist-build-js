@@ -8,7 +8,8 @@ var config = {
   output: {
     path: './js',
     filename: '[name].js',
-    chunkFilename: '[id].js'
+    chunkFilename: '[id].js',
+    sourceMapFilename: '[name].js.map'
   }
 };
 
