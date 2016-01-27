@@ -1,6 +1,9 @@
 # Jekyll
 _site
 
+# source maps
+js/**/*.map
+
 # Logs
 logs
 *.log
