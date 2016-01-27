@@ -4,7 +4,7 @@
   "description": "A test to build production JavaScript on Federalist",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
     "watch": "webpack --watch"
   },
   "repository": {
