@@ -44,22 +44,15 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	(function(window) {
-	  'use strict';
+	var d3 = __webpack_require__(1);
 
-	  var d3 = __webpack_require__(3);
-
-	  d3.select('body')
-	    .style('color', 'white')
-	    .style('background-color', 'black');
-
-	})(window);
+	d3.select('body')
+	  .style('color', 'white')
+	  .style('background-color', 'black');
 
 
 /***/ },
-/* 1 */,
-/* 2 */,
-/* 3 */
+/* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
 	(function (global, factory) {
