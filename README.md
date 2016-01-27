@@ -11,12 +11,12 @@ production JS built on specific branches.
 
 Here's how it works:
 
-1. Our Jekyll plugin, [_plugins/build.rb](blob/master/_plugins/build.rb),
+1. Our Jekyll plugin, [_plugins/build.rb](_plugins/build.rb),
    compares the `BRANCH` environment variable (set by Federalist during a
    build) to a list of known "production" branches.
 1. If the branch is in our production list, we set `ENV['NODE_ENV'] =
    'production'` and build the JavaScript with `npm install && npm run build`.
-1. Our npm [`build` script](blob/master/package.json#L7) calls `webpack`.
+1. Our npm [`build` script](package.json#L7) calls `webpack`.
 1. Our webpack config [conditionally uglifies] the JavaScript if
    `process.env.NODE_ENV === 'production'`.
 
