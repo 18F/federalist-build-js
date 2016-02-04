@@ -1,3 +1,7 @@
+if (process.env.SAUCE_USERNAME) {
+  console.warn('[sauce] username:', process.env.SAUCE_USERNAME, 'key length:', process.env.SAUCE_ACCESS_KEY.length);
+}
+
 exports.config = {
     // =====================
     // Server Configurations
