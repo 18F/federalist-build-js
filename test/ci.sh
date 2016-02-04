@@ -21,4 +21,4 @@ while [ `curl $(commit_url)` != $commit_sha ]; do
 done
 
 # pass the Federalist URL to the test runner
-npm test -- -b $url
+SITE_URL=$url npm run test-ci
