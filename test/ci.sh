@@ -15,7 +15,7 @@ commit_sha="${CIRCLE_SHA1}"
 
 echo "fetching Federalist commit data..."
 
-while [ `curl $(commit_url)` != "$commit_sha" ]; do
+while [ `curl ${commit_url}` != "$commit_sha" ]; do
   echo "waiting for Federalist to build..."
   sleep 1
 done
