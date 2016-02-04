@@ -1,4 +1,8 @@
 baseurl: ''
 
 exclude:
+  - circle.yml
   - node_modules
+  - package.json
+  - test
+  - wdio.conf.js
