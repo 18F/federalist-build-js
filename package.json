@@ -22,5 +22,9 @@
   "dependencies": {
     "d3-selection": "^0.6.3",
     "webpack": "^1.12.12"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.2.8",
+    "webdriverio": "^4.0.1"
   }
 }
