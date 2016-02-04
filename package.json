@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "test": "wdio",
-    "test-ci": "wdio -b $SITE_URL wdio.sauce.js"
+    "test": "wdio test/wdio.conf.js",
+    "test-ci": "wdio -b $SITE_URL test/wdio.sauce.js"
   },
   "repository": {
     "type": "git",
