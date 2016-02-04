@@ -7,7 +7,7 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "test": "wdio",
-    "test-ci": "wdio -b $SITE_URL"
+    "test-ci": "wdio -b $SITE_URL wdio.sauce.js"
   },
   "repository": {
     "type": "git",
