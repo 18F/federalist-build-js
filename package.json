@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "wdio-mocha-framework": "^0.2.8",
-    "webdriverio": "^4.0.1"
+    "webdriverio": "^3.4.0"
   }
 }
