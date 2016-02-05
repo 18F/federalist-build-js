@@ -1,4 +1,4 @@
-var config = require('./wdio.conf');
+var config = require('./wdio.conf').config;
 
 config.host = 'ondemand.saucelabs.com';
 config.port = 80;
