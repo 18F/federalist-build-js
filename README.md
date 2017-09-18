@@ -1,4 +1,6 @@
-# Build JS on Federalist
+# DEPRECATED
+
+## Build JS on Federalist
 
 This is a standalone test of an idea that [Brian](https://github.com/gemfarmer)
 and I cooked up for [EITI](https://github.com/18F/doi-extractives-data), in
